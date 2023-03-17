@@ -14,5 +14,6 @@ auto main() -> int
           ofstream file;
           file.open("filepath.txt");
           file << key;
+          file.close();
      }
 }
